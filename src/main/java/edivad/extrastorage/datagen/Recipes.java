@@ -99,7 +99,7 @@ public class Recipes extends RecipeProvider
                 .unlockedBy("has_part", has(Registration.CRAFTER.get(CrafterTier.DIAMOND).get()))//
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(Registration.ADVANCED_EXPORTER.get())//
+ /*       ShapedRecipeBuilder.shaped(Registration.ADVANCED_EXPORTER.get())//
                 .pattern(" a ")//
                 .pattern("cbc")//
                 .pattern(" a ")//
@@ -118,7 +118,7 @@ public class Recipes extends RecipeProvider
                 .define('c', RSItems.PROCESSORS.get(ProcessorItem.Type.IMPROVED).get())//
                 .unlockedBy("has_part", has(RSBlocks.IMPORTER.get()))//
                 .save(consumer);
-
+*/
         ShapedRecipeBuilder.shaped(Registration.RAW_NEURAL_PROCESSOR_ITEM.get())//
                 .pattern("cbd")//
                 .pattern("bab")//
