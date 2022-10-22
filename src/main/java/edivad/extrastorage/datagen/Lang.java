@@ -42,8 +42,8 @@ public class Lang extends LanguageProvider
             add(Registration.CRAFTER.get(tier).get(), TierName + " Crafter");
         }
 
-        add(Registration.ADVANCED_EXPORTER.get(), "Advanced Exporter");
-        add(Registration.ADVANCED_IMPORTER.get(), "Advanced Importer");
+        //add(Registration.ADVANCED_EXPORTER.get(), "Advanced Exporter");
+        //add(Registration.ADVANCED_IMPORTER.get(), "Advanced Importer");
         add(Registration.RAW_NEURAL_PROCESSOR_ITEM.get(), "Raw Neural Processor");
         add(Registration.NEURAL_PROCESSOR_ITEM.get(), "Neural Processor");
         add(Translations.HOLD_SHIFT, "Hold Shift for details");
