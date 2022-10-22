@@ -159,7 +159,7 @@ public class Registration {
         REGISTERED_LOOT_ITEM_FUNCTIONS.put("crafter", LOOT_ITEM_FUNCTIONS.register("crafter", () -> new LootItemFunctionType(new AdvancedCrafterLootFunction.Serializer())));
     }
 
-    public static final RegistryObject<AdvancedExporterBlock> ADVANCED_EXPORTER = BLOCKS.register("advanced_exporter", AdvancedExporterBlock::new);
+/*    public static final RegistryObject<AdvancedExporterBlock> ADVANCED_EXPORTER = BLOCKS.register("advanced_exporter", AdvancedExporterBlock::new);
     public static final RegistryObject<Item> ADVANCED_EXPORTER_ITEM = ITEMS.register("advanced_exporter", () -> new BaseBlockItem(ADVANCED_EXPORTER.get(), GLOBAL_PROPERTIES));
     public static final RegistryObject<BlockEntityType<AdvancedExporterBlockEntity>> ADVANCED_EXPORTER_TILE = TILES.register("advanced_exporter", () -> BlockEntityType.Builder.of(AdvancedExporterBlockEntity::new, ADVANCED_EXPORTER.get()).build(null));
     public static final RegistryObject<MenuType<AdvancedExporterContainerMenu>> ADVANCED_EXPORTER_CONTAINER = CONTAINERS.register("advanced_exporter", () -> IForgeMenuType.create((windowId, inv, data) -> {
@@ -185,7 +185,7 @@ public class Registration {
             return null;
         }
         return new AdvancedImporterContainerMenu(windowId, inv.player, be);
-    }));
+    })); */
 
     public static final RegistryObject<Item> RAW_NEURAL_PROCESSOR_ITEM = ITEMS.register("raw_neural_processor", () -> new Item(GLOBAL_PROPERTIES));
     public static final RegistryObject<Item> NEURAL_PROCESSOR_ITEM = ITEMS.register("neural_processor", () -> new Item(GLOBAL_PROPERTIES));
