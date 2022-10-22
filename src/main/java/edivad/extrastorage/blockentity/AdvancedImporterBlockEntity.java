@@ -1,4 +1,4 @@
-package edivad.extrastorage.blockentity;
+/*package edivad.extrastorage.blockentity;
 
 import com.refinedmods.refinedstorage.blockentity.NetworkNodeBlockEntity;
 import com.refinedmods.refinedstorage.blockentity.config.IComparable;
@@ -32,3 +32,4 @@ public class AdvancedImporterBlockEntity extends NetworkNodeBlockEntity<Advanced
         return new AdvancedImporterNetworkNode(level, blockPos);
     }
 }
+*/
