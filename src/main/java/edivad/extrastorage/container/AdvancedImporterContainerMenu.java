@@ -1,4 +1,4 @@
-package edivad.extrastorage.container;
+/*package edivad.extrastorage.container;
 
 import com.refinedmods.refinedstorage.blockentity.config.IType;
 import com.refinedmods.refinedstorage.container.BaseContainerMenu;
@@ -56,3 +56,4 @@ public class AdvancedImporterContainerMenu extends BaseContainerMenu
         return tile;
     }
 }
+*/
