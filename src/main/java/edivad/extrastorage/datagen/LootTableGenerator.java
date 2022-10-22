@@ -60,8 +60,8 @@ public class LootTableGenerator extends LootTableProvider {
             Registration.CRAFTER_BLOCK.values().forEach(block -> genBlockItemLootTableWithFunction(block.get(), AdvancedCrafterLootFunction.builder()));
             Registration.ITEM_STORAGE_BLOCK.values().forEach(block -> genBlockItemLootTableWithFunction(block.get(), StorageBlockLootFunction.builder()));
             Registration.FLUID_STORAGE_BLOCK.values().forEach(block -> genBlockItemLootTableWithFunction(block.get(), StorageBlockLootFunction.builder()));
-            dropSelf(Registration.ADVANCED_EXPORTER.get());
-            dropSelf(Registration.ADVANCED_IMPORTER.get());
+            //dropSelf(Registration.ADVANCED_EXPORTER.get());
+            //dropSelf(Registration.ADVANCED_IMPORTER.get());
         }
 
         @Override
