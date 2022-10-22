@@ -1,4 +1,4 @@
-package edivad.extrastorage.blocks;
+/*package edivad.extrastorage.blocks;
 
 import com.refinedmods.refinedstorage.block.BlockDirection;
 import com.refinedmods.refinedstorage.block.CableBlock;
@@ -112,3 +112,4 @@ public class AdvancedExporterBlock extends CableBlock
         return InteractionResult.SUCCESS;
     }
 }
+*/
