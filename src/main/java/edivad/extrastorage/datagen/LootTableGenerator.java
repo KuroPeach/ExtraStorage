@@ -71,7 +71,7 @@ public class LootTableGenerator extends LootTableProvider {
             res.addAll(Registration.CRAFTER_BLOCK.values().stream().map(RegistryObject::get).collect(Collectors.toList()));
             res.addAll(Registration.ITEM_STORAGE_BLOCK.values().stream().map(RegistryObject::get).collect(Collectors.toList()));
             res.addAll(Registration.FLUID_STORAGE_BLOCK.values().stream().map(RegistryObject::get).collect(Collectors.toList()));
-            res.addAll(Arrays.asList(Registration.ADVANCED_EXPORTER.get(), Registration.ADVANCED_IMPORTER.get()));
+            //res.addAll(Arrays.asList(Registration.ADVANCED_EXPORTER.get(), Registration.ADVANCED_IMPORTER.get()));
             return res;
         }
 
