@@ -1,4 +1,4 @@
-package edivad.extrastorage.client.screen;
+/*package edivad.extrastorage.client.screen;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.refinedmods.refinedstorage.item.UpgradeItem;
@@ -62,3 +62,4 @@ public class AdvancedExporterScreen extends BaseScreen<AdvancedExporterContainer
         renderString(poseStack, 7, 60, new TranslatableComponent("container.inventory").getString());
     }
 }
+*/
