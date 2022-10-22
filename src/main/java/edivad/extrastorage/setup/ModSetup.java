@@ -54,8 +54,8 @@ public class ModSetup {
             Registration.FLUID_STORAGE_TILE.get(type).get().create(BlockPos.ZERO, null).getDataManager().getParameters().forEach(BlockEntitySynchronizationManager::registerParameter);
         }
 
-        API.instance().getNetworkNodeRegistry().add(AdvancedExporterNetworkNode.ID, (tag, world, pos) -> readAndReturn(tag, new AdvancedExporterNetworkNode(world, pos)));
-        API.instance().getNetworkNodeRegistry().add(AdvancedImporterNetworkNode.ID, (tag, world, pos) -> readAndReturn(tag, new AdvancedImporterNetworkNode(world, pos)));
+        //API.instance().getNetworkNodeRegistry().add(AdvancedExporterNetworkNode.ID, (tag, world, pos) -> readAndReturn(tag, new AdvancedExporterNetworkNode(world, pos)));
+        //API.instance().getNetworkNodeRegistry().add(AdvancedImporterNetworkNode.ID, (tag, world, pos) -> readAndReturn(tag, new AdvancedImporterNetworkNode(world, pos)));
         //Registration.ADVANCED_EXPORTER_TILE.get().create(BlockPos.ZERO, null).getDataManager().getParameters().forEach(BlockEntitySynchronizationManager::registerParameter);
         //Registration.ADVANCED_IMPORTER_TILE.get().create(BlockPos.ZERO, null).getDataManager().getParameters().forEach(BlockEntitySynchronizationManager::registerParameter);
  
